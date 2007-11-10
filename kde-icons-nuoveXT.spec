@@ -13,7 +13,7 @@ License:	GPL
 Group:		Graphical desktop/KDE
 Source:		http://nuovext.pwsp.net/files/%{theme_name}-kde-%{version}.tar.bz2
 URL:		http://nuovext.pwsp.net/
-Requires:	kdebase
+Requires:	kdebase-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
