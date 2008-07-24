@@ -3,7 +3,7 @@
 %define theme_name      nuoveXT
 %define version		1.6
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 2
+%define release		%mkrel 4
 
 Name:		%{name}
 Version:	%{version}
