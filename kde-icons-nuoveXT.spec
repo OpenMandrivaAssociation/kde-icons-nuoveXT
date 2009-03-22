@@ -3,7 +3,7 @@
 %define theme_name      nuoveXT
 %define version		1.6
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 4
+%define release		%mkrel 5
 
 Name:		%{name}
 Version:	%{version}
@@ -13,7 +13,7 @@ License:	GPL
 Group:		Graphical desktop/KDE
 Source:		http://nuovext.pwsp.net/files/%{theme_name}-kde-%{version}.tar.bz2
 URL:		http://nuovext.pwsp.net/
-Requires:	kdebase-progs
+Requires:	kdebase3-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
