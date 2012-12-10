@@ -75,3 +75,43 @@ rm -rf %buildroot
 %doc CHANGELOG GPL
 %{_iconsdir}/%{theme_name}/*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.6-7mdv2011.0
++ Revision: 619900
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 1.6-6mdv2010.0
++ Revision: 438082
+- rebuild
+
+* Sun Mar 22 2009 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.6-5mdv2009.1
++ Revision: 360336
+- Fix Requires
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.6-4mdv2009.0
++ Revision: 247623
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Sat Nov 10 2007 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.6-2mdv2008.1
++ Revision: 107288
+- Fix Requires (kdebase-progs is a better require)
+- import kde-icons-nuoveXT
+
+
+* Tue Jul 11 2006 Nicolas L�cureuil <neoclust@mandriva.org> 1.6-2mdv2007.0
+- Rebuild for new extension
+
+* Thu Apr 06 2006 Sebastien Savarin <plouf@mandriva.org> 1.6-1mdk
+- New release 1.6
+
+* Thu Nov 17 2005 Thierry Vignaud <tvignaud@mandriva.com> 1.5-2mdk
+- fix description (aka describe this package, not inkscape)
+
+* Wed Nov 16 2005 Sebastien Savarin <plouf@mandriva.org> 1.5-1mdk
+- First Mandriva Linux release
